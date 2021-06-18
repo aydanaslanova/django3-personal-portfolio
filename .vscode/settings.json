@@ -1,0 +1,14 @@
+{
+    "git.ignoreLimitWarning": true,
+    "python.formatting.provider": "yapf",
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./portfolio",
+        "-p",
+        "*test.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.unittestEnabled": true
+}
